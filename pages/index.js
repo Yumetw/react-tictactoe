@@ -54,9 +54,6 @@ export default function Home() {
         }
     };
 
-    console.log(BoardData);
-    console.log(GridData);
-
     const GameState = () => {
         WinCombination.map((line) => {
             const [a,b,c] = line;
@@ -81,7 +78,6 @@ export default function Home() {
     useEffect(() => {
         GameState();
     }, [GridData]);
-    console.log(Win,Draw);
 
     const Modal = () => {
         return (
