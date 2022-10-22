@@ -1,0 +1,36 @@
+.game_square{
+    background-color: #D3D3D3;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.game_square:hover {
+    background-color: #A5A5A5;
+    border: 2px solid #707070;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.modal {
+    width:300px;
+    height:200px;
+    border-radius: 5px;
+    background-color: rgba(238,244,237,0.9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.modal_title {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial';
+}
